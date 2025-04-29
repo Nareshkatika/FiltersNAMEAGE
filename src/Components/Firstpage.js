@@ -59,7 +59,7 @@ const FirstPage=()=>{
         const sol=items.filter(each=>each.firstName.toLowerCase().includes(name.toLowerCase()) || 
                                     each.lastName.toLowerCase().includes(name.toLowerCase()) || 
                                     each.age.toString().includes(name))
-        setStore(sol)
+        setItems(sol)
     }
 
     return(
